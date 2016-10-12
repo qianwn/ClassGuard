@@ -15,6 +15,9 @@
 		BD0521931DAE1DAD00D474C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0521911DAE1DAD00D474C7 /* LaunchScreen.storyboard */; };
 		BD05219E1DAE1DAD00D474C7 /* ClassGuardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05219D1DAE1DAD00D474C7 /* ClassGuardTests.m */; };
 		BD0521A91DAE1DAD00D474C7 /* ClassGuardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0521A81DAE1DAD00D474C7 /* ClassGuardUITests.m */; };
+		BD0521BA1DAE37E000D474C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0521B91DAE37E000D474C7 /* Foundation.framework */; };
+		BD0521BC1DAE37F400D474C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0521BB1DAE37F400D474C7 /* CoreGraphics.framework */; };
+		BD0521BE1DAE380000D474C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0521BD1DAE380000D474C7 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		BD0521A81DAE1DAD00D474C7 /* ClassGuardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassGuardUITests.m; sourceTree = "<group>"; };
 		BD0521AA1DAE1DAD00D474C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0521B71DAE2B4A00D474C7 /* ClassGuard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClassGuard-Prefix.pch"; sourceTree = "<group>"; };
+		BD0521B91DAE37E000D474C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD0521BB1DAE37F400D474C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD0521BD1DAE380000D474C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0521BE1DAE380000D474C7 /* UIKit.framework in Frameworks */,
+				BD0521BC1DAE37F400D474C7 /* CoreGraphics.framework in Frameworks */,
+				BD0521BA1DAE37E000D474C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +95,7 @@
 				BD05219C1DAE1DAD00D474C7 /* ClassGuardTests */,
 				BD0521A71DAE1DAD00D474C7 /* ClassGuardUITests */,
 				BD0521811DAE1DAD00D474C7 /* Products */,
+				BD0521B81DAE37E000D474C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +150,16 @@
 				BD0521AA1DAE1DAD00D474C7 /* Info.plist */,
 			);
 			path = ClassGuardUITests;
+			sourceTree = "<group>";
+		};
+		BD0521B81DAE37E000D474C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD0521BD1DAE380000D474C7 /* UIKit.framework */,
+				BD0521BB1DAE37F400D474C7 /* CoreGraphics.framework */,
+				BD0521B91DAE37E000D474C7 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
