@@ -1,0 +1,15 @@
+//
+//  ClassGuard-Prefix.pch
+//  ClassGuard
+//
+//  Created by 钱文 on 2016/10/12.
+//  Copyright © 2016年 钱文. All rights reserved.
+//
+
+#ifndef ClassGuard_Prefix_pch
+#define ClassGuard_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ClassGuard_Prefix_pch */

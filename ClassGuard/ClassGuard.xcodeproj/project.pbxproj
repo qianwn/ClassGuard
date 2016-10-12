@@ -51,6 +51,7 @@
 		BD0521A41DAE1DAD00D474C7 /* ClassGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0521A81DAE1DAD00D474C7 /* ClassGuardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassGuardUITests.m; sourceTree = "<group>"; };
 		BD0521AA1DAE1DAD00D474C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0521B71DAE2B4A00D474C7 /* ClassGuard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClassGuard-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 				BD0521911DAE1DAD00D474C7 /* LaunchScreen.storyboard */,
 				BD0521941DAE1DAD00D474C7 /* Info.plist */,
 				BD0521831DAE1DAD00D474C7 /* Supporting Files */,
+				BD0521B71DAE2B4A00D474C7 /* ClassGuard-Prefix.pch */,
 			);
 			path = ClassGuard;
 			sourceTree = "<group>";
@@ -508,6 +510,7 @@
 				BD0521AF1DAE1DAD00D474C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0521B01DAE1DAD00D474C7 /* Build configuration list for PBXNativeTarget "ClassGuardTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +519,7 @@
 				BD0521B21DAE1DAD00D474C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0521B31DAE1DAD00D474C7 /* Build configuration list for PBXNativeTarget "ClassGuardUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +528,7 @@
 				BD0521B51DAE1DAD00D474C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
